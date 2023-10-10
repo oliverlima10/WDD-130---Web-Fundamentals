@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
 
 #content {
     max-width: 1600px;
@@ -8,6 +9,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -18,8 +20,9 @@ nav a{
     text-align: center;
 }
 
-.button-box {
+.button_box {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 main section {
@@ -35,6 +38,8 @@ main section {
 body{
     background-color: #90e0ef;
     color: black;
+    padding: 0;
+    margin: 0;
 }
 
 header{
@@ -48,24 +53,33 @@ nav a:hover{
 }
 
 .book, .join {
-    background-color: #f9e900;
+    background-color: #0077b6;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
-    background-color: #0077b6;
+    background-color: blueviolet;
     color: white;
 }
 
 .msg {
     background-color: #f9e900;
     color: black;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #0077b6;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .logo {
@@ -74,8 +88,11 @@ footer {
     width: 80px;
 }
 
-.home-title{
-    color: #f9e900;
+.home_title{
+    color: #0077b6;
+    font-size: 2em;
+    font-family: "Croissant One";
+    margin-top: 10px;   
 }
 
 h4{
@@ -88,6 +105,9 @@ h4{
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer a {
@@ -109,4 +129,41 @@ footer p {
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.icon{
+    padding-top: 10px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-image{
+    border: 10px solid #f9e900;
+}
+
+main section img {
+    box-sizing: border-box;
+    border: #0077b6;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
 }
