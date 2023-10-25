@@ -20,7 +20,7 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #070c25; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #265f53  ;
-  --nav-link-color: #f65802;
+  --nav-link-color: #070c25;
   --nav-background-color: #f69425;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #f69425;
@@ -172,4 +172,8 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+.logo{
+    width:500px
 }
