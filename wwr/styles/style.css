@@ -258,12 +258,13 @@ nav {
 
 .home_title1{
     position: absolute;
-    top: 100px;
+    top: 70px;
     left: 350px;
     font-size: 70px;
     margin-left: 200px;
     color: #f9e900;
     border: 5px solid #0a0061;
+    font-family: "Croissant One";
     
 }
 
