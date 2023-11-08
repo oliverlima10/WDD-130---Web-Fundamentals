@@ -251,6 +251,115 @@ nav {
     transform: scale(1.1);
 }
 
+#hero-river{
+    display: inline-block;
+    position: relative;
+}
+
+.home_title{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    font-size: 70px;
+    margin-left: 200px;
+    color: #f9e900;
+    border: 5px solid #0a0061;
+    
+}
+
+.river-grid{
+    display: inline-block;
+}
+
+.hero-river-image{
+    width: 309%;
+    height: 300px;
+    margin-bottom: 50px;
+    
+}
+
+
+.salmon-river{
+    width: 550px;
+    height:500px;
+    margin-top: 30px;
+}
+
+.salmon-river{
+    float: left;
+    gap: 10px;
+    margin-left: 10px;
+    border: 10px solid #f9e900;
+    
+
+}
+
+.salmon-text{
+    margin-bottom: 150px;
+    margin-right: 50px;
+    margin-left: 600px;
+    justify-content: center;
+    font-size: 25px;
+    border: 5px solid #0077b6;
+}
+
+.desolation-text{
+    margin-right: 600px;
+    margin-left: 80px;
+    font-size: 25px;
+    justify-content: center;
+    font-size: 25px;
+    border: 5px solid #0077b6;
+    
+}
+
+.title2{
+    margin-top: 200px;
+    font-size: 40px;
+    color: #0a0061;
+}
+
+.title{
+    font-size: 40px;
+    color: #0a0061;
+    margin-left: 20px;
+}
+.desolation-river{
+    width: 550px;
+    height: 500px;
+}
+
+.desolation-river{
+    float: right;
+    gap:10px;
+    margin-right: 10px;
+    border: 10px solid #f9e900;
+    margin-bottom: 50px;
+
+}
+
+.canyon-river{
+    width: 100%;
+    height:400px;
+    border: 10px solid #f9e900;
+    margin-top: 50px;
+}
+.canyon-text{
+    font-size: 25px;
+    border: 5px solid #0077b6;
+}
+
+.gg{
+    font-size: 50px;
+    margin-top: 220px;
+    color: #0a0061;
+}
+  
+.button_rivers{
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
