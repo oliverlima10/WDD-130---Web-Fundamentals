@@ -364,21 +364,26 @@ footer .social img {
 .preach {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    margin-left: -400px;
+    margin-left: 30px;
 }
 
 .preach_title{
     text-align: center;
     font-family: "Oswald";
-    margin-left: -100px;
     font-size: 30px;
+    margin-right: 50px;
 }
 
 .preach_time,
 .preach_teacher{
-    text-align: center;
     font-family: "Oswald";
-    margin-left: -100px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.preach_time{
+    margin-top: -25px;
 }
 
 .faith {
@@ -397,13 +402,18 @@ footer .social img {
 .faith_time,
 .faith_teacher{
     font-family: "Oswald";
-    margin-left: 70px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.faith_time{
+    margin-top: -25px;
 }
 
 .launching {
     grid-column: 3 / 4; 
     grid-row: 1 / 2;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .launching_title{
@@ -415,7 +425,13 @@ footer .social img {
 .launching_time,
 .launching_teacher{
     font-family: "Oswald";
-    margin-left: 70px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.launching_time{
+    margin-top: -25px;
 }
 
 .faith_card,
@@ -443,27 +459,36 @@ footer .social img {
 .faith2_time,
 .faith2_teacher {
     font-family: "Oswald";
-    margin-left: 120px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.new_time,
+.teachings_time,
+.faith2_time {
+    margin-top: -25px;
 }
 
 .new {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    margin-left: -400px;
+    margin-left: 30px;
 }
 
 .new_title{
     text-align: center;
     font-family: "Oswald";
-    margin-left: -100px;
+    margin-right: 50px;
     font-size: 30px;
 }
 
 .new_time,
 .new_teacher{
-    text-align: center;
     font-family: "Oswald";
-    margin-left: -100px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 50px;
 }
 
 .faith2 {
@@ -497,33 +522,35 @@ footer .social img {
 .launching_on_time,
 .launching_on_teacher,
 .faith_on_time,
-.faith_on_teacher,
-.launching_on_icon,
-.faith_on_icon {
+.faith_on_teacher{
+
     font-family: "Oswald";
-    margin-left: 120px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
 }
 
 .new_on {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    margin-left: -400px;
+    margin-left: 30px;
 }
 
 .new_on_title{
     text-align: center;
     font-family: "Oswald";
-    margin-left: -100px;
+    margin-right: 50px;
     font-size: 30px;
 }
 
 .new_on_time,
 .new_on_teacher,
-.new_on_time2,
-.new_on_icon{
-    text-align: center;
+.new_on_time2{
+
     font-family: "Oswald";
-    margin-left: -100px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 50px;
 }
 
 .launching_on {
@@ -533,6 +560,70 @@ footer .social img {
     
 }
 
+.new_on_time,
+.new_on_time2,
+.launching_on_time,
+.faith_on_time{
+
+    margin-top: -25px;
+}
+
+.preach_reg,
+.new_reg,
+.new_on_reg{
+    margin-top: -20px;
+    text-align: center;
+    margin-right: 30px;
+    background-color: #265f53;
+    height: 1px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.faith_reg,
+.teachings_reg,
+.faith_on_reg{
+    margin-top: -20px;
+    text-align: center;
+    margin-right: 30px;
+    background-color: #265f53;
+    height: 1px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.faith_reg:hover,
+.teachings_reg:hover,
+.faith_on_reg:hover{
+    color: white;
+    background-color: #0a0061;
+}
+
+.preach_reg:hover,
+.new_reg:hover,
+.new_on_reg:hover{
+    color: white;
+    background-color: #0a0061;
+}
+
+.launching_reg,
+.faith2_reg,
+.launching_on_reg{
+    margin-top: -20px;
+    text-align: center;
+    margin-right: 30px;
+    background-color: #265f53;
+    height: 1px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.launching_reg:hover,
+.faith2_reg:hover,
+.launching_on_reg:hover{
+    color: white;
+    background-color: #0a0061;
+}
 
 .faith_on_card,
 .new_on_card,
