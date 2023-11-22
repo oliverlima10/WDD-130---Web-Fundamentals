@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Vina+Sans&display=swap');
 
 #content{
     max-width: 1600px;
@@ -234,9 +235,11 @@ footer .social img {
 
 .activities_main{
     text-align: center;
-    padding-bottom: 30px;
-    font-size: 60px;
-    font-family: "Montserrat";
+    padding-bottom: 10px;
+    font-size: 80px;
+    font-family: "Abril Fatface";
+    border: 10px solid #070c25;
+    margin-top: 5px;
     
 }
 
@@ -262,7 +265,7 @@ footer .social img {
     height: 430px;
     float: left;
     gap: 10px;
-    margin-left: 20px;
+    margin-left: 60px;
     border: 10px solid #265f53;
     margin-top: 50px;
 }
@@ -339,9 +342,11 @@ footer .social img {
 
 .class_title{
     text-align: center;
-    padding-bottom: 30px;
-    font-size: 60px;
-    font-family: "Montserrat";  
+    padding-bottom: 10px;
+    font-size: 80px;
+    font-family: "Abril Fatface";
+    border: 10px solid #070c25;
+    margin-top: 5px;  
 }
 
 .class_text{
@@ -636,58 +641,359 @@ footer .social img {
 
 /*Leadership Page*/
 
+.leader_title{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 80px;
+    font-family: "Abril Fatface";
+    border: 10px solid #070c25;
+    margin-top: 5px;
+    margin-bottom: 200px;
+}
+
+.main_leader{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    background-color: #0a0061;
+    border-radius: 15px;
+}
+
+.presidency{
+    font-size: 30px;
+    font-family: "Oswald";
+    margin-left: 650px;
+    margin-right: 400px;
+    background-color: #265f53;
+    border-radius: 5px;
+    margin-bottom: -100px;
+    color: white;
+    
+
+}
+
+.president_main,
+.vice_president_main,
+.secretary_main{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.coordinator_main{
+    margin-left: 15px;
+}
+
+.coordinator{
+    text-align: center;
+    background-color: #265f53;
+    font-family: "Oswald";
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.name_adonai{
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 25px;
+    margin-top: 5px;
+    color: white;
+    border: 5px solid white;
+}
+
+.president,
+.vice_president,
+.secretary{
+    text-align: center;
+    background-color: #265f53;
+    font-family: "Oswald";
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.name_oliver,
+.name_pedro,
+.name_laleska{
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+    border: 5px solid white;
+}
+
+.secretary_main{
+    margin-right: 20px;
+}
+
+.committees_title{
+    font-size: 30px;
+    font-family: "Oswald";
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #265f53;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+.leader_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.act_com_title,
+.mid_com_title,
+.reg_com_title,
+.miss_com_title,
+.wel_com_title{
+    background-color: #265f53;
+    font-family: "Oswald";
+    font-size: 30px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+    
+    
+}
+
+.miss_com_title{
+    margin-right: 60px;
+    margin-left: 50px;
+}
+
+.wel_com_title{
+    margin-right: 80px;
+    margin-left: 70px;
+}
+
+.act_com_title{
+    margin-right: 70px;
+    margin-left: 60px;
+}
+
+.mid_com_title{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.reg_com_title{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.act_leader,
+.mid_leader,
+.reg_leader{
+    font-family: "Oswald";
+    font-size: 30px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+.act_leader,
+.act_super{
+    margin-left: 135px;
+    color: #f65802;
+    font-family: "Oswald";
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.mid_leader,
+.mid_super{
+    margin-left: 135px;
+    color: #f65802;
+    font-family: "Oswald";
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.reg_leader,
+.reg_super{
+    margin-left: 135px;
+    color: #f65802;
+    font-family: "Oswald";
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.miss_leader,
+.wel_leader,
+.wel_super{
+    margin-left: 135px;
+    color: #f65802;
+    font-family: "Oswald";
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.wel_super{
+    margin-left: 120px;
+}
+
+.act_super{
+    margin-left: 120px;
+}
+
+.mid_super{
+    margin-left: 120px;
+}
+
+.reg_super{
+    margin-left: 120px;
+}
+
+.name_raymom,
+.name_bruna2{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: "Oswald";
+    margin-top: 5px;
+    color: white;
+}
+
+.name_natalia,
+.name_bruna1,
+.name_gaby{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: "Oswald";
+    margin-top: 5px;
+    color: white;
+}
+
+.name_luana,
+.name_danilo,
+.name_douglas,
+.name_karol{
+    margin-left: 130px;
+    font-size: 20px;
+    font-family: "Oswald";
+    margin-top: 5px;
+    color: white;
+}
+
+.activities_com{
+    background-color: #0a0061;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.midia_com{
+    background-color: #0a0061;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.registration_com{
+    background-color: #0a0061;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.missionary_com{
+    background-color: #0a0061;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.welfare_com{
+    grid-column: 3 / 4;
+    background-color: #0a0061;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
 .adonai{
     width: 300px;
     height: 400px;
+    border: 5px solid #f65802;
 }
 
 .oliver{
     width: 300px;
     height: 300px;
+    border: 5px solid #f65802;
 }
 .pedro{
     width: 300px;
     height: 300px;
+    border: 5px solid #f65802;
 }
 .laleska{
     width: 300px;
     height: 300px;
+    border: 5px solid #f65802;
 }
 .raymom{
     width: 250px;
     height: 250px;
+    margin-left: 50px;
+    border: 5px solid #f65802;
 }
 .bruna2{
     width: 250px;
     height: 250px;
+    margin-left: 50px;
+    border: 5px solid #f65802;
 }
 .natalia{
     width: 250px;
     height: 250px;
+    margin-left: 50px;
+    border: 5px solid #f65802;
 }
 .bruna1{
     width: 250px;
     height: 250px;
+    margin-left: 50px;
+    border: 5px solid #f65802;
 }
 .luana{
     width: 250px;
     height: 250px;
+    margin-left: 50px;
+    border: 5px solid #f65802;
 }
 .danilo{
     width: 250px;
     height: 250px;
+    margin-left: 50px;
+    border: 5px solid #f65802;
 }
 .gaby{
     width: 250px;
     height: 250px;
+    margin-left: 50px;
+    border: 5px solid #f65802;
 }
 .douglas{
     width: 250px;
     height: 250px;
+    margin-left: 50px;
+    border: 5px solid #f65802;
 }
 .karol{
     width: 250px;
     height: 250px;
+    margin-left: 50px;
+    border: 5px solid #f65802;
 }
 
 
