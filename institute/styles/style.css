@@ -648,7 +648,6 @@ footer .social img {
     font-family: "Abril Fatface";
     border: 10px solid #070c25;
     margin-top: 5px;
-    margin-bottom: 200px;
 }
 
 .main_leader{
@@ -658,6 +657,18 @@ footer .social img {
     grid-gap: 5px;
     background-color: #0a0061;
     border-radius: 15px;
+}
+
+.explanation{
+    background-color: #265f53;
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.explanation_text{
+    font-family: "Oswald";
+    font-size: 30px;
 }
 
 .presidency{
@@ -827,6 +838,7 @@ footer .social img {
 }
 
 .miss_leader,
+.miss_super,
 .wel_leader,
 .wel_super{
     margin-left: 135px;
@@ -844,7 +856,8 @@ footer .social img {
     margin-left: 120px;
 }
 
-.mid_super{
+.mid_super,
+.miss_super{
     margin-left: 120px;
 }
 
@@ -874,7 +887,8 @@ footer .social img {
 .name_luana,
 .name_danilo,
 .name_douglas,
-.name_karol{
+.name_karol,
+.name_daniel{
     margin-left: 130px;
     font-size: 20px;
     font-family: "Oswald";
@@ -909,6 +923,7 @@ footer .social img {
     margin-right: 50px;
     border-radius: 10px;
     margin-top: 100px;
+    padding-bottom: 100px;
 }
 
 .welfare_com{
@@ -918,6 +933,7 @@ footer .social img {
     margin-right: 50px;
     border-radius: 10px;
     margin-top: 100px;
+    padding-bottom: 20px;
 }
 
 .adonai{
@@ -941,7 +957,8 @@ footer .social img {
     height: 300px;
     border: 5px solid #f65802;
 }
-.raymom{
+.raymom,
+.daniel{
     width: 250px;
     height: 250px;
     margin-left: 50px;
@@ -994,6 +1011,16 @@ footer .social img {
     height: 250px;
     margin-left: 50px;
     border: 5px solid #f65802;
+}
+
+.act_members,
+.mid_members,
+.reg_members,
+.miss_members,
+.wel_members{
+    background-color: #265f53;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 
