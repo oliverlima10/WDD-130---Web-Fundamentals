@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute Aracaju Campus</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <button onclick="one()">1</button>
+<button onclick="two()">2</button>
+<button onclick="four()">4</button>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a "loop" variable
+var i;
+
+// Full-width images
+function one() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "25%";
+  }
+}
+</script>
+</head>
+
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/institute_logo3.png" alt="institute_logo">
+            </a>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="activities.html">Activities</a>
+                <a href="leadership.html">Leadership</a>
+                <a href="classes.html">Classes and Teachers</a>
+            </nav>
+        </header>
+
+        <main class="photo_grid">
+
+            <div class="row">
+                <div class="column">
+                  <img class= "ph_act" src="images/act1.jpeg">
+                  <img class= "ph_act" src="images/act2.jpeg">
+                  <img class= "ph_act" src="images/act3.jpeg">
+                  <img class= "ph_act" src="images/act4.jpeg">
+                  <img class= "ph_act"src="images/act5.jpeg">
+                  <img class= "ph_act" src="images/act6.jpeg">
+                  <img class= "ph_act" src="images/act7.jpeg">
+                </div>
+                <div class="column">
+                  <img class= "ph_act" src="images/act8.jpeg">
+                  <img class= "ph_act" src="images/act9.jpeg">
+                  <img class= "ph_act" src="images/act10.jpeg">
+                  <img class= "ph_act" src="images/act11.jpeg">
+                  <img class= "ph_act" src="images/act12.jpeg">
+                  <img class= "ph_act" src="images/act13.jpeg">
+                </div>
+                <div class="column">
+                  <img class= "ph_act" src="images/act14.jpeg">
+                  <img class= "ph_act" src="images/act15.jpeg">
+                  <img class= "ph_act" src="images/act16.jpeg">
+                  <img class= "ph_act" src="images/act17.jpeg">
+                  <img class= "ph_act" src="images/act18.jpeg">
+                  <img class= "ph_act" src="images/act19.jpeg">
+                  <img class= "ph_act" src="images/act20.jpeg">
+                </div>
+                <div class="column">
+                  <img class= "ph_act" src="images/act21.jpeg">
+                  <img class= "ph_act" src="images/act22.jpeg">
+                  <img class= "ph_act" src="images/act23.jpeg">
+                  <img class= "ph_act" src="images/act24.jpeg">
+                  <img class= "ph_act" src="images/act25.jpeg">
+                  <img class= "ph_act" src="images/act26.jpeg">
+                </div>
+              </div>
+              
+
+        </main>
+
+        <footer>
+            <img class="last_logo" src="images/institute_logo3.png" alt="Logo Institute">
+            <p class="institute_name"> Institute Aracaju Campus &copy; 2023 - Oliver Lima</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img class="facebook_icon" src="images/facebook_resized.png" alt="Facebook Logo">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img class="instagram_icon" src="images/instagram2_resized.png" alt="Instagram Logo">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

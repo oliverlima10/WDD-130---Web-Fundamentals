@@ -23,7 +23,6 @@ footer{
     background-color: #070c25;
     color: #f65802;
     padding: 20px 20px;
-    margin-top: 200px;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -231,7 +230,27 @@ footer .social img {
     font-family: "Oswald";
     font-size: 25px;
 }
+
+.home_grid{
+    margin-bottom: 100px;
+}
 /*Activities Page*/
+
+.activities_grid{
+    margin-bottom: 200px;
+}
+
+.photos{
+    background-color: #265f53;
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.photos:hover{
+    background-color: #0a0061;
+}
 
 .activities_main{
     text-align: center;
@@ -638,8 +657,16 @@ footer .social img {
     border: 5px solid #265f53;
 }
 
+.class_grid{
+    margin-bottom: 100px;
+}
+
 
 /*Leadership Page*/
+
+.leader_grid{
+    margin-bottom: 100px;
+}
 
 .leader_title{
     text-align: center;
@@ -1023,4 +1050,124 @@ footer .social img {
     border-radius: 5px;
 }
 
+/*Activities Committee*/
 
+.sidenav{
+    height: 100%;
+    width: 160px;
+    z-index: 1;
+    background-color: #070c25;
+    overflow-x: hidden;
+    padding-top: 20px;
+    grid-column: 1/2;
+    grid-row: 1/9;
+    margin-top: -25px;
+}
+
+.sidenav a{
+    padding: 8px 10px 6px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    font-family: "Oswald";
+}
+
+
+.content_act{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.name_cmt{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Oswald";
+    margin-left: -100px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+.act_cmt:hover{
+    background-color: #f65802;
+}
+
+.med_cmt:hover{
+    background-color: #f65802;
+}
+
+.reg_cmt:hover{
+    background-color: #f65802;
+}
+
+.miss_cmt:hover{
+    background-color: #f65802;
+}
+
+.wel_cmt:hover{
+    background-color: #f65802;
+}
+
+.raymom_cmt, .bruna2_cmt,
+.alice_cmt, .daniel_cmt,
+.edinaldo_cmt, .gidinilson_cmt, 
+.gregory_cmt, .izabele_cmt,
+.kevin_cmt, .rodolfo_cmt,
+.ruan_cmt, .lorena_cmt,
+.thiffany_cmt, .ticiane_cmt,
+.emanuel_cmt {
+    height: 250px;
+    width: 250px;
+    border: 3px solid #265f53;
+    margin-top: 30px;
+}
+
+.title_act_cmt{
+    text-align: center;
+    background-color: #265f53;
+    margin-top: -34px;
+}
+
+.explanation_act{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    font-family: "Oswald";
+    margin-top: -20px;
+}
+
+.act_cmt, .med_cmt,
+.reg_cmt, .miss_cmt,
+.wel_cmt {
+    margin-top: 60px;
+}
+
+.text_act_cmt{
+    font-family: "April Fatface";
+    font-size: 50px;
+}
+
+/*Photos Page*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  .ph_act{
+    width: 500px;
+    height: 500px;
+  }
