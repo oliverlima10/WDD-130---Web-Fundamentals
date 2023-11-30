@@ -1145,8 +1145,11 @@ footer .social img {
 }
 
 .text_act_cmt{
-    font-family: "April Fatface";
+    font-family: "Abril Fatface";
     font-size: 50px;
+    background-color: #f69425;
+    border: 10px solid #070c25;
+    margin-top: 35px;
 }
 
 /*Photos Page*/
@@ -1170,4 +1173,36 @@ footer .social img {
   .ph_act{
     width: 500px;
     height: 500px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border: 3px solid #265f53;
+  }
+
+  .b1, .b2, .b3{
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #070c25;
+    color: white;
+    font-family: "Oswald";
+    font-size: 20px;
+  }
+
+  .b1:hover,
+  .b2:hover,
+  .b3:hover{
+    background-color: #f65802;
+    width: 130px;
+    height: 70px;
+  }
+
+  .gallery{
+    font-family: "Abril Fatface";
+    text-align: center;
+    font-size: 60px;
+    border: 10px solid #070c25;
+    margin-top: 5px;
   }

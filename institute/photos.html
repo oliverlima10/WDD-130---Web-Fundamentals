@@ -6,38 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Institute Aracaju Campus</title>
     <link rel="stylesheet" href="styles/style.css">
-    <button onclick="one()">1</button>
-<button onclick="two()">2</button>
-<button onclick="four()">4</button>
-
-<script>
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
-
-// Declare a "loop" variable
-var i;
-
-// Full-width images
-function one() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.flex = "100%";
-  }
-}
-
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.flex = "50%";
-  }
-}
-
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.flex = "25%";
-  }
-}
-</script>
+    
 </head>
 
 
@@ -56,6 +25,42 @@ function four() {
             </nav>
         </header>
 
+        <div class="title_photo">
+            <h1 class="gallery">GALLERY</h1>
+        </div>
+
+        <button class="b1" onclick="one()">Column</button>
+        <button class="b3" onclick="four()">Row</button>
+
+        <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+
+        // Declare a "loop" variable
+        var i;
+
+        // Full-width images
+        function one() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "100%";
+  }
+}
+
+        // Two images side by side
+        function two() {
+        for (i = 0; i < elements.length; i++) {
+            elements[i].style.flex = "50%";
+        }
+        }
+
+        // Four images side by side
+        function four() {
+        for (i = 0; i < elements.length; i++) {
+            elements[i].style.flex = "25%";
+        }
+        }
+        </script>
+
         <main class="photo_grid">
 
             <div class="row">
@@ -67,6 +72,7 @@ function four() {
                   <img class= "ph_act"src="images/act5.jpeg">
                   <img class= "ph_act" src="images/act6.jpeg">
                   <img class= "ph_act" src="images/act7.jpeg">
+                  <img class="ph_act" src="images/att1.jpeg">
                 </div>
                 <div class="column">
                   <img class= "ph_act" src="images/act8.jpeg">
@@ -84,6 +90,7 @@ function four() {
                   <img class= "ph_act" src="images/act18.jpeg">
                   <img class= "ph_act" src="images/act19.jpeg">
                   <img class= "ph_act" src="images/act20.jpeg">
+                  <img class="ph_act" src="images/everyone.jpeg">
                 </div>
                 <div class="column">
                   <img class= "ph_act" src="images/act21.jpeg">
