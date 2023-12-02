@@ -1726,10 +1726,11 @@ nav a {
     color: white;
 }
 
+
 .president_main,
 .vice_president_main,
 .secretary_main {
-    margin-top: 20px;
+    margin-top: -20px;
     margin-left: 20px;
 }
 
@@ -1737,13 +1738,17 @@ nav a {
     margin-left: 15px;
 }
 
-.coordinator {
+.coordinator,
+.president,
+.vice_president,
+.secretary {
     text-align: center;
     background-color: #265f53;
     font-family: "Oswald";
     margin-bottom: 5px;
     padding-bottom: 10px;
     color: white;
+    margin-right: 20px;
 }
 
 .name_adonai,
@@ -1768,6 +1773,15 @@ nav a {
     border: 5px solid white;
 }
 
+.name_adonai,
+.name_oliver,
+.name_laleska,
+.name_pedro{
+    margin-left: -5px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
 .secretary_main {
     margin-right: 20px;
 }
@@ -1777,19 +1791,19 @@ nav a {
     font-family: "Oswald";
     margin-left: 20px;
     margin-right: 20px;
-    background-color: #265f53;
+    background-color: #ff0404;
     border-radius: 5px;
-    padding-bottom: 10px;
-    padding-top: 5px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 60px;
     color: white;
+    text-align: center;
 }
 
 .leader_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: block;
+    
 }
 
 .act_com_title,
@@ -1804,11 +1818,13 @@ nav a {
     padding-bottom: 10px;
     padding-top: 5px;
     color: white;
+    text-align: center;
 }
 
 .act_com_title {
     margin-right: 20px;
     margin-left: 20px;
+    text-align: center;
 }
 
 .mid_com_title,
@@ -1832,7 +1848,6 @@ nav a {
 .reg_leader {
     font-family: "Oswald";
     font-size: 20px;
-    margin-left: 30px;
     margin-bottom: 5px;
 }
 
@@ -1846,11 +1861,21 @@ nav a {
 .miss_super,
 .wel_leader,
 .wel_super {
-    margin-left: 50px;
+    
     color: #f65802;
     font-family: "Oswald";
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 5px;
+    text-align: center;
+}
+
+.act_leader,
+.mid_leader,
+.reg_leader,
+.miss_leader,
+.wel_leader{
+    margin-right: 120px;
+    
 }
 
 .wel_super {
@@ -1860,21 +1885,22 @@ nav a {
 .act_super,
 .mid_super,
 .miss_super,
-.reg_super {
-    margin-left: 40px;
+.reg_super,
+.wel_super {
+    margin-left: 10px;
 }
 
 .name_raymom,
 .name_bruna2 {
-    margin-left: 20px;
-    font-size: 15px;
+    margin-left: 0px;
+    font-size: 20px;
 }
 
 .name_natalia,
 .name_bruna1,
 .name_gaby {
-    margin-left: 20px;
-    font-size: 15px;
+    margin-left: 0px;
+    font-size: 20px;
 }
 
 .name_luana,
@@ -1882,8 +1908,8 @@ nav a {
 .name_douglas,
 .name_karol,
 .name_daniel {
-    margin-left: 30px;
-    font-size: 15px;
+    margin-left: 0px;
+    font-size: 20px;
 }
 
 .activities_com,
@@ -1895,7 +1921,7 @@ nav a {
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 100px;
     padding-bottom: 20px;
 }
 
@@ -1913,8 +1939,8 @@ nav a {
 .gaby,
 .douglas,
 .karol {
-    width: 100%;
-    height: auto;
+    width: 352px;
+    height: 300px;
     border: 5px solid #f65802;
     margin: 10px 0;
 }
@@ -1927,6 +1953,7 @@ nav a {
     background-color: #265f53;
     padding: 10px;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
 /* Ensuring proper viewport scaling */
@@ -1942,8 +1969,9 @@ nav a {
     z-index: 1;
     background-color: #070c25;
     overflow-x: hidden;
-    padding-top: 20px;
-    margin-top: -25px;
+    padding-top: 5px;
+    margin-top: 0px;
+    text-align: center;
 }
 
 .sidenav a {
@@ -1993,10 +2021,11 @@ nav a {
 .thiffany_cmt,
 .ticiane_cmt,
 .emanuel_cmt {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     border: 3px solid #265f53;
     margin-top: 15px;
+    margin-left: 45px;
 }
 
 .title_act_cmt {
@@ -2018,7 +2047,8 @@ nav a {
 .reg_cmt,
 .miss_cmt,
 .wel_cmt {
-    margin-top: 30px;
+    margin-top: 20px;
+    border: 3px solid #f69425;
 }
 
 .text_act_cmt {
@@ -2048,7 +2078,7 @@ nav a {
 }
 
 .ph_act {
-    width: 100%;
+    width: 95%;
     height: auto;
     margin-left: 10px;
     margin-bottom: 30px;
@@ -2071,7 +2101,6 @@ nav a {
 }
 
 .b1:hover,
-.b2:hover,
 .b3:hover {
     background-color: #f65802;
     width: calc(100% - 30px);
