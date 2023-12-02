@@ -1226,9 +1226,28 @@ footer .social img {
     grid-template-columns: 100%;
   }
 
+  header {
+    margin-left: 0; /* Remove a margem à esquerda para telas pequenas */
+}
+
+nav {
+    flex-direction: column; /* Empilha os itens verticalmente em telas pequenas */
+    margin-top: -20px;
+    
+}
+
+nav a {
+    padding: 5px; /* Reduz ainda mais o espaço ao redor dos links em telas pequenas */
+}
+.index{
+    border: 3px solid #f69425;
+    
+}
+
+
   .logo {
-    width: 80px;
-    margin-left: 10px;
+    width: 100px;
+    margin-left: 150px;
   }
 
   .last_logo {
@@ -1245,6 +1264,7 @@ footer .social img {
     margin-bottom: 30px;
     margin-right: 10px;
     margin-left: 10px;
+    font-size: 25px;
   }
 
   .prophet {
@@ -1257,6 +1277,7 @@ footer .social img {
     border: 10px solid #265f53;
     padding: 10px;
     box-sizing: border-box;
+    margin-left: 40px;
 }
 
 .prophet_message {
@@ -1265,6 +1286,8 @@ footer .social img {
     font-family: "Oswald";
     text-align: center;
     padding-top: 20px; /* ajuste conforme necessário */
+    font-size: 25px;
+    margin-top: -20px;
 }
 
 .prophet_grid {
@@ -1288,6 +1311,18 @@ footer .social img {
     padding-bottom: 10px; /* ajuste conforme necessário */
 }
 
+.attend{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    width: 80%; /* ou qualquer largura desejada para telas menores */
+    margin-top: 20px; /* ajuste conforme necessário */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+
 .msg_1,
 .msg_2,
 .msg_3,
@@ -1299,6 +1334,10 @@ footer .social img {
     background-color: #070c25;
     margin-top: 10px; /* ajuste conforme necessário */
     text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
 }
 #button_box {
     text-align: center;
@@ -1378,7 +1417,7 @@ footer .social img {
 
 .volleyball {
     width: 100%; /* ajuste conforme necessário */
-    max-width: 300px; /* ou qualquer valor desejado para telas menores */
+    max-width: 500px; /* ou qualquer valor desejado para telas menores */
     margin: 20px auto; /* ajuste conforme necessário */
     box-sizing: border-box;
     border: 5px solid #265f53;
@@ -1435,6 +1474,10 @@ footer .social img {
     font-family: "Oswald";
 }
 
+.photos{
+    margin-top: 50px;
+}
+
 /* Classes Page */
 
 .class_title {
@@ -1457,10 +1500,8 @@ footer .social img {
 }
 
 .class_grid {
-    display: grid;
-    grid-template-columns: 1fr; /* Altere conforme necessário para dispositivos menores */
-    grid-template-rows: auto;
-    grid-gap: 10px;
+    display: block;
+   
 }
 
 .preach {
@@ -1511,11 +1552,14 @@ footer .social img {
 .faith2_card,
 .faith_on_card,
 .new_on_card,
-.launching_on_card {
+.launching_on_card,
+.preach,
+.preach_card {
     width: 100%; /* Ajuste conforme necessário */
     margin-left: 0; /* Remova a margem ou ajuste conforme necessário */
     margin-right: 0; /* Remova a margem ou ajuste conforme necessário */
     margin-top: 20px; /* Ajuste conforme necessário */
+    margin-bottom: 50px;
 }
 
 .faith_title,
@@ -1525,33 +1569,57 @@ footer .social img {
 .new_title,
 .faith_on_title,
 .new_on_title,
-.launching_on_title {
+.launching_on_title
+ {
     font-family: "Oswald";
-    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
-    margin-left: 20px; /* Ajuste conforme necessário */
+    font-size: 25px; /* ou qualquer tamanho desejado para telas menores */
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: -10px;
 }
 
+.preach_title,
+.new_title,
+.new_on_title{
+    font-family: "Oswald";
+    font-size: 25px; /* ou qualquer tamanho desejado para telas menores */
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: -10px;
+    margin-left: 40px;
+}
+/* Classes relacionadas ao time */
 .faith_time,
-.faith_teacher,
 .launching_time,
-.launching_teacher,
 .teachings_time,
-.teachings_teacher,
 .faith2_time,
-.faith2_teacher,
 .new_time,
-.new_teacher,
 .faith_on_time,
-.faith_on_teacher,
 .new_on_time,
-.new_on_teacher,
 .new_on_time2,
 .launching_on_time,
-.launching_on_teacher {
+.preach_time {
     font-family: "Oswald";
-    font-size: 15px; /* ou qualquer tamanho desejado para telas menores */
+    font-size: 15px;
     text-align: center;
-    margin-right: 10px; /* Ajuste conforme necessário */
+    margin-right: 10px;
+}
+
+/* Classes relacionadas ao teacher */
+.faith_teacher,
+.launching_teacher,
+.teachings_teacher,
+.faith2_teacher,
+.new_teacher,
+.faith_on_teacher,
+.new_on_teacher,
+.launching_on_teacher,
+.preach_teacher {
+    font-family: "Oswald";
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: -40px;
 }
 
 .new_time,
@@ -1573,12 +1641,19 @@ footer .social img {
 .launching_on_reg {
     margin-top: -10px; /* Ajuste conforme necessário */
     text-align: center;
-    margin-right: 10px; /* Ajuste conforme necessário */
-    background-color: #265f53;
-    height: 1px;
+    margin-right: 30px; /* Ajuste conforme necessário */
+    margin-left: 20px;
     border-radius: 5px;
-    padding-top: 10px; /* Ajuste conforme necessário */
+    padding-top: 30px; /* Ajuste conforme necessário */
+    background-color: #f69425;
+    z-index: -1;
+
 }
+
+.new_on_time2{
+    margin-top: 3px;
+}
+
 
 /* Hover effect on registration lines */
 .faith_reg:hover,
