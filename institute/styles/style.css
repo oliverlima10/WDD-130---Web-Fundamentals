@@ -1206,3 +1206,811 @@ footer .social img {
     border: 10px solid #070c25;
     margin-top: 5px;
   }
+
+
+
+  /* ... (seu CSS existente) */
+
+/* Consulta de mídia para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+  #content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    grid-template-columns: 100%;
+  }
+
+  .logo {
+    width: 80px;
+    margin-left: 10px;
+  }
+
+  .last_logo {
+    width: 80px;
+    margin-right: 10px;
+  }
+
+  .hero_image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .prophet_text {
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .prophet {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    width: 80%; /* ou qualquer largura desejada para telas menores */
+    margin-top: 20px; /* ajuste conforme necessário */
+    border: 10px solid #265f53;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.prophet_message {
+    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
+    color: #0a0061;
+    font-family: "Oswald";
+    text-align: center;
+    padding-top: 20px; /* ajuste conforme necessário */
+}
+
+.prophet_grid {
+    height: auto; /* ou qualquer altura desejada para telas menores */
+    background-color: #265f53;
+}
+
+.attend_title {
+    font-size: 30px; /* ou qualquer tamanho desejado para telas menores */
+    margin-left: 20px; /* ajuste conforme necessário */
+    margin-top: 20px; /* ajuste conforme necessário */
+    color: #f65802;
+    -webkit-text-stroke: #070c25;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+}
+
+.attend_subtitle {
+    margin-top: 20px; /* ajuste conforme necessário */
+    text-align: center;
+    padding-bottom: 10px; /* ajuste conforme necessário */
+}
+
+.msg_1,
+.msg_2,
+.msg_3,
+.msg_4,
+.msg_5 {
+    font-size: 15px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Oswald";
+    margin-left: 20px; /* ajuste conforme necessário */
+    background-color: #070c25;
+    margin-top: 10px; /* ajuste conforme necessário */
+    text-align: center;
+}
+#button_box {
+    text-align: center;
+    padding-bottom: 15px; /* ajuste conforme necessário */
+    background-color: #265f53;
+    margin-right: 20px; /* ajuste conforme necessário */
+    margin-left: 20px; /* ajuste conforme necessário */
+    margin-top: 20px; /* ajuste conforme necessário */
+    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Oswald";
+    border-radius: 5px;
+}
+
+.know {
+    color: white;
+}
+
+#button_box:hover {
+    background-color: #0a0061;
+    color: #f65802;
+}
+
+.subtitle_2 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Oswald";
+    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
+}
+
+.home_grid {
+    margin-bottom: 50px; /* ajuste conforme necessário */
+}
+
+/* Activities Page */
+
+.activities_grid {
+    margin-bottom: 100px; /* ajuste conforme necessário */
+}
+
+.photos {
+    background-color: #265f53;
+    border-radius: 10px;
+    padding: 15px 20px; /* ajuste conforme necessário */
+    margin-top: 20px; /* ajuste conforme necessário */
+    margin-bottom: -20px; /* ajuste conforme necessário */
+}
+
+.photos:hover {
+    background-color: #0a0061;
+}
+
+.activities_main {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Abril Fatface";
+    border: 5px solid #070c25;
+    margin-top: 5px;
+}
+
+.activities_text {
+    margin-bottom: 50px; /* ajuste conforme necessário */
+    margin-right: 20px; /* ajuste conforme necessário */
+    margin-left: 20px; /* ajuste conforme necessário */
+    justify-content: center;
+    font-size: 16px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Oswald";
+}
+
+.activities_title {
+    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
+    color: #0a0061;
+    font-family: "Oswald";
+    text-align: center;
+    padding-top: 20px; /* ajuste conforme necessário */
+}
+
+.volleyball {
+    width: 100%; /* ajuste conforme necessário */
+    max-width: 300px; /* ou qualquer valor desejado para telas menores */
+    margin: 20px auto; /* ajuste conforme necessário */
+    box-sizing: border-box;
+    border: 5px solid #265f53;
+    margin-top: 20px;
+}
+
+.past {
+    text-align: center;
+    padding-bottom: 15px; /* ajuste conforme necessário */
+    font-size: 25px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Oswald";
+    background-color: #265f53;
+    margin-right: 20px; /* ajuste conforme necessário */
+    margin-left: 20px; /* ajuste conforme necessário */
+    border-radius: 10px;
+}
+
+.past_msg {
+    text-align: center;
+    padding-bottom: 15px; /* ajuste conforme necessário */
+    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Oswald";
+}
+
+.act1,
+.act2,
+.act3,
+.act4,
+.act5,
+.act6 {
+    width: 100%; /* Ajuste conforme necessário */
+    margin-left: 0; /* Remova a margem ou ajuste conforme necessário */
+    margin-right: 0; /* Remova a margem ou ajuste conforme necessário */
+    padding-right: 0; /* Remova o preenchimento ou ajuste conforme necessário */
+    height: auto; /* Ajuste conforme necessário */
+}
+
+.upcoming {
+    text-align: center;
+    padding-bottom: 20px; /* Ajuste conforme necessário */
+    font-size: 30px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Oswald";
+    background-color: #265f53;
+    margin-left: 20px; /* Ajuste conforme necessário */
+    margin-right: 20px; /* Ajuste conforme necessário */
+    margin-top: 40px; /* Ajuste conforme necessário */
+    border-radius: 10px;
+}
+
+.upcoming_msg {
+    text-align: center;
+    padding-bottom: 20px; /* Ajuste conforme necessário */
+    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Oswald";
+}
+
+/* Classes Page */
+
+.class_title {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Abril Fatface";
+    border: 5px solid #070c25;
+    margin-top: 5px;
+}
+
+.class_text {
+    text-align: center;
+    padding-bottom: 20px; /* Ajuste conforme necessário */
+    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
+    font-family: "Oswald";
+    margin-right: 20px; /* Ajuste conforme necessário */
+    margin-left: 20px; /* Ajuste conforme necessário */
+    background-color: #265f53;
+}
+
+.class_grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Altere conforme necessário para dispositivos menores */
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+.preach {
+    grid-column: auto; /* Ajuste conforme necessário */
+    grid-row: auto; /* Ajuste conforme necessário */
+    margin-left: 0; /* Remova a margem ou ajuste conforme necessário */
+}
+
+.preach_title {
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
+    margin-right: 20px; /* Ajuste conforme necessário */
+}
+
+.preach_time,
+.preach_teacher {
+    font-family: "Oswald";
+    font-size: 16px; /* ou qualquer tamanho desejado para telas menores */
+    text-align: center;
+    margin-right: 20px; /* Ajuste conforme necessário */
+}
+
+.preach_time {
+    margin-top: -10px; /* Ajuste conforme necessário */
+}
+
+/* Ensuring proper viewport scaling */
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+/* Adjustments for mobile view */
+.faith,
+.launching,
+.teachings,
+.new,
+.faith2,
+.faith_on,
+.new_on,
+.launching_on,
+.faith_card,
+.preach_card,
+.launching_card,
+.teachings_card,
+.new_card,
+.faith2_card,
+.faith_on_card,
+.new_on_card,
+.launching_on_card {
+    width: 100%; /* Ajuste conforme necessário */
+    margin-left: 0; /* Remova a margem ou ajuste conforme necessário */
+    margin-right: 0; /* Remova a margem ou ajuste conforme necessário */
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.faith_title,
+.launching_title,
+.teachings_title,
+.faith2_title,
+.new_title,
+.faith_on_title,
+.new_on_title,
+.launching_on_title {
+    font-family: "Oswald";
+    font-size: 20px; /* ou qualquer tamanho desejado para telas menores */
+    margin-left: 20px; /* Ajuste conforme necessário */
+}
+
+.faith_time,
+.faith_teacher,
+.launching_time,
+.launching_teacher,
+.teachings_time,
+.teachings_teacher,
+.faith2_time,
+.faith2_teacher,
+.new_time,
+.new_teacher,
+.faith_on_time,
+.faith_on_teacher,
+.new_on_time,
+.new_on_teacher,
+.new_on_time2,
+.launching_on_time,
+.launching_on_teacher {
+    font-family: "Oswald";
+    font-size: 15px; /* ou qualquer tamanho desejado para telas menores */
+    text-align: center;
+    margin-right: 10px; /* Ajuste conforme necessário */
+}
+
+.new_time,
+.new_time2,
+.launching_on_time,
+.faith_on_time {
+    margin-top: -15px; /* Ajuste conforme necessário */
+}
+
+/* Registration lines */
+.preach_reg,
+.new_reg,
+.new_on_reg,
+.faith_reg,
+.teachings_reg,
+.faith_on_reg,
+.launching_reg,
+.faith2_reg,
+.launching_on_reg {
+    margin-top: -10px; /* Ajuste conforme necessário */
+    text-align: center;
+    margin-right: 10px; /* Ajuste conforme necessário */
+    background-color: #265f53;
+    height: 1px;
+    border-radius: 5px;
+    padding-top: 10px; /* Ajuste conforme necessário */
+}
+
+/* Hover effect on registration lines */
+.faith_reg:hover,
+.teachings_reg:hover,
+.faith_on_reg:hover,
+.preach_reg:hover,
+.new_reg:hover,
+.new_on_reg:hover,
+.launching_reg:hover,
+.faith2_reg:hover,
+.launching_on_reg:hover {
+    color: white;
+    background-color: #0a0061;
+}
+
+/* Margin adjustment for grid */
+.class_grid {
+    margin-bottom: 50px; /* Ajuste conforme necessário */
+}
+
+/* Ensuring proper viewport scaling */
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+/* Leader Section */
+.leader_grid {
+    margin-bottom: 50px;
+}
+
+.leader_title {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: "Abril Fatface";
+    border: 5px solid #070c25;
+    margin-top: 5px;
+}
+
+.main_leader {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #0a0061;
+    border-radius: 10px;
+}
+
+.explanation {
+    background-color: #265f53;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.explanation_text {
+    font-family: "Oswald";
+    font-size: 20px;
+}
+
+.presidency {
+    font-size: 20px;
+    font-family: "Oswald";
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #265f53;
+    border-radius: 5px;
+    margin-bottom: -50px;
+    color: white;
+}
+
+.president_main,
+.vice_president_main,
+.secretary_main {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.coordinator_main {
+    margin-left: 15px;
+}
+
+.coordinator {
+    text-align: center;
+    background-color: #265f53;
+    font-family: "Oswald";
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.name_adonai,
+.name_oliver,
+.name_pedro,
+.name_laleska,
+.name_raymom,
+.name_bruna2,
+.name_natalia,
+.name_bruna1,
+.name_gaby,
+.name_luana,
+.name_danilo,
+.name_douglas,
+.name_karol,
+.name_daniel {
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 15px;
+    margin-top: 5px;
+    color: white;
+    border: 5px solid white;
+}
+
+.secretary_main {
+    margin-right: 20px;
+}
+
+.committees_title {
+    font-size: 20px;
+    font-family: "Oswald";
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #265f53;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.leader_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.act_com_title,
+.mid_com_title,
+.reg_com_title,
+.miss_com_title,
+.wel_com_title {
+    background-color: #265f53;
+    font-family: "Oswald";
+    font-size: 20px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: white;
+}
+
+.act_com_title {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mid_com_title,
+.miss_com_title {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.wel_com_title {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.reg_com_title {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.act_leader,
+.mid_leader,
+.reg_leader {
+    font-family: "Oswald";
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.act_leader,
+.act_super,
+.mid_leader,
+.mid_super,
+.reg_leader,
+.reg_super,
+.miss_leader,
+.miss_super,
+.wel_leader,
+.wel_super {
+    margin-left: 50px;
+    color: #f65802;
+    font-family: "Oswald";
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.wel_super {
+    margin-left: 40px;
+}
+
+.act_super,
+.mid_super,
+.miss_super,
+.reg_super {
+    margin-left: 40px;
+}
+
+.name_raymom,
+.name_bruna2 {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.name_natalia,
+.name_bruna1,
+.name_gaby {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.name_luana,
+.name_danilo,
+.name_douglas,
+.name_karol,
+.name_daniel {
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.activities_com,
+.midia_com,
+.registration_com,
+.missionary_com,
+.welfare_com {
+    background-color: #0a0061;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.adonai,
+.oliver,
+.pedro,
+.laleska,
+.raymom,
+.daniel,
+.bruna2,
+.natalia,
+.bruna1,
+.luana,
+.danilo,
+.gaby,
+.douglas,
+.karol {
+    width: 100%;
+    height: auto;
+    border: 5px solid #f65802;
+    margin: 10px 0;
+}
+
+.act_members,
+.mid_members,
+.reg_members,
+.miss_members,
+.wel_members {
+    background-color: #265f53;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Ensuring proper viewport scaling */
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+/* Activities Committee */
+.sidenav {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #070c25;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: -25px;
+}
+
+.sidenav a {
+    padding: 8px 10px 6px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: block;
+    font-family: "Oswald";
+}
+
+.content_act {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.name_cmt {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Oswald";
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.act_cmt:hover,
+.med_cmt:hover,
+.reg_cmt:hover,
+.miss_cmt:hover,
+.wel_cmt:hover {
+    background-color: #f65802;
+}
+
+.raymom_cmt,
+.bruna2_cmt,
+.alice_cmt,
+.daniel_cmt,
+.edinaldo_cmt,
+.gidinilson_cmt,
+.gregory_cmt,
+.izabele_cmt,
+.kevin_cmt,
+.rodolfo_cmt,
+.ruan_cmt,
+.lorena_cmt,
+.thiffany_cmt,
+.ticiane_cmt,
+.emanuel_cmt {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #265f53;
+    margin-top: 15px;
+}
+
+.title_act_cmt {
+    text-align: center;
+    background-color: #265f53;
+    margin-top: -17px;
+}
+
+.explanation_act {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: "Oswald";
+    margin-top: -10px;
+}
+
+.act_cmt,
+.med_cmt,
+.reg_cmt,
+.miss_cmt,
+.wel_cmt {
+    margin-top: 30px;
+}
+
+.text_act_cmt {
+    font-family: "Abril Fatface";
+    font-size: 30px;
+    background-color: #f69425;
+    border: 5px solid #070c25;
+    margin-top: 20px;
+}
+
+/* Photos Page */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sit next to each other */
+.column {
+    flex: 100%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.ph_act {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border: 3px solid #265f53;
+}
+
+.b1,
+.b2,
+.b3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 40px);
+    height: 40px;
+    border-radius: 10px;
+    background-color: #070c25;
+    color: white;
+    font-family: "Oswald";
+    font-size: 14px;
+}
+
+.b1:hover,
+.b2:hover,
+.b3:hover {
+    background-color: #f65802;
+    width: calc(100% - 30px);
+    height: 50px;
+}
+
+.gallery {
+    font-family: "Abril Fatface";
+    text-align: center;
+    font-size: 40px;
+    border: 5px solid #070c25;
+    margin-top: 5px;
+}
+
+
+  /* Adicione mais estilos conforme necessário para dispositivos móveis */
+}
