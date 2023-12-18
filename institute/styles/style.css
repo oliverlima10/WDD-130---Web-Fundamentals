@@ -277,6 +277,7 @@ footer .social img {
     font-family: "Oswald";
     text-align: center;
     padding-top: 50px;
+    margin-top: -20px;
 }
 
 .volleyball{
@@ -295,8 +296,8 @@ footer .social img {
     font-size: 40px;
     font-family: "Oswald";
     background-color: #265f53;
-    margin-left: 540px;
-    margin-right: 540px;
+    margin-left: 520px;
+    margin-right: 520px;
     border-radius: 10px;
 }
 
@@ -702,7 +703,7 @@ footer .social img {
     font-size: 30px;
     font-family: "Oswald";
     margin-left: 650px;
-    margin-right: 400px;
+    margin-right: 300px;
     background-color: #265f53;
     border-radius: 5px;
     margin-bottom: -100px;
@@ -769,8 +770,8 @@ footer .social img {
 .committees_title{
     font-size: 30px;
     font-family: "Oswald";
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 480px;
+    margin-right: 450px;
     background-color: #265f53;
     border-radius: 5px;
     padding-bottom: 20px;
@@ -778,6 +779,7 @@ footer .social img {
     margin-bottom: 50px;
     margin-top: 50px;
     color: white;
+    text-align: center;
     
 }
 
@@ -804,28 +806,33 @@ footer .social img {
 }
 
 .miss_com_title{
-    margin-right: 60px;
-    margin-left: 50px;
+    margin-right: 65px;
+    margin-left: 65px;
+    text-align: center;
 }
 
 .wel_com_title{
-    margin-right: 80px;
-    margin-left: 70px;
+    margin-right: 50px;
+    margin-left: 60px;
+    text-align: center;
 }
 
 .act_com_title{
-    margin-right: 70px;
+    margin-right: 50px;
     margin-left: 60px;
+    text-align: center;
 }
 
 .mid_com_title{
     margin-right: 80px;
     margin-left: 80px;
+    text-align: center;
 }
 
 .reg_com_title{
     margin-right: 50px;
     margin-left: 50px;
+    text-align: center;
 }
 
 .act_leader,
