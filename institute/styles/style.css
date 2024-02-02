@@ -368,6 +368,20 @@ footer .social img {
     border: 10px solid #070c25;
     margin-top: 5px;  
 }
+.button_sem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.semester{
+    font-family: "Oswald";
+    background-color: #070c25;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.semester:hover{
+    background-color: #0a0061;
+}
 
 .class_text{
     text-align: center;
@@ -386,6 +400,36 @@ footer .social img {
     grid-gap: 10px;
 }
 
+.class2024_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.expia{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    margin-left: 30px;
+}
+
+.revelations{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    margin-left: 30px;
+}
+.jesus{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    margin-left: 30px;
+}
+
+.mormon{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
 .preach {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -461,7 +505,11 @@ footer .social img {
 
 .faith_card,
 .preach_card,
-.launching_card {
+.launching_card,
+.expia_card,
+.revelations_card,
+.jesus_card,
+.mormon_card {
     width: 350px;
     height: 400px;
     border: 5px solid #265f53;
@@ -474,7 +522,12 @@ footer .social img {
 }
 
 .teachings_title,
-.faith2_title {    font-family: "Oswald";
+.faith2_title,
+.expia_title,
+.revelations_title,
+.jesus_title,
+.mormon_title {    
+    font-family: "Oswald";
     font-size: 30px;
     margin-left: 70px;
 }
@@ -482,16 +535,34 @@ footer .social img {
 .teachings_time,
 .teachings_teacher,
 .faith2_time,
-.faith2_teacher {
+.faith2_teacher,
+.expia_teacher,
+.expia_time,
+.revelations_time,
+.revelations_teacher,
+.jesus_teacher,
+.jesus_time,
+.mormon_teacher,
+.mormon_time {
     font-family: "Oswald";
     font-size: 25px;
     text-align: center;
     margin-right: 20px;
 }
 
+.revelations_title
+{
+    margin-left: 120px;
+}
+.jesus_title{
+    margin-left: 110px;
+}
+
 .new_time,
 .teachings_time,
-.faith2_time {
+.faith2_time,
+.jesus_time,
+.mormon_time {
     margin-top: -25px;
 }
 
@@ -588,14 +659,20 @@ footer .social img {
 .new_on_time,
 .new_on_time2,
 .launching_on_time,
-.faith_on_time{
+.faith_on_time,
+.expia_time,
+.revelations_time{
 
     margin-top: -25px;
 }
 
 .preach_reg,
 .new_reg,
-.new_on_reg{
+.new_on_reg,
+.expia_reg,
+.jesus_reg,
+.mormon_reg
+{
     margin-top: -20px;
     text-align: center;
     margin-right: 30px;
@@ -607,7 +684,8 @@ footer .social img {
 
 .faith_reg,
 .teachings_reg,
-.faith_on_reg{
+.faith_on_reg,
+.revelations_reg{
     margin-top: -20px;
     text-align: center;
     margin-right: 30px;
@@ -645,7 +723,11 @@ footer .social img {
 
 .launching_reg:hover,
 .faith2_reg:hover,
-.launching_on_reg:hover{
+.launching_on_reg:hover,
+.expia_reg:hover,
+.revelations_reg:hover,
+.jesus_reg:hover,
+.mormon_reg:hover{
     color: white;
     background-color: #0a0061;
 }
@@ -1635,7 +1717,8 @@ nav a {
     background-color: #265f53;
 }
 
-.class_grid {
+.class_grid,
+.class2024_grid {
     display: block;
    
 }
@@ -1690,7 +1773,15 @@ nav a {
 .new_on_card,
 .launching_on_card,
 .preach,
-.preach_card {
+.preach_card,
+.expia,
+.expia_card,
+.revelations,
+.revelations_card,
+.jesus,
+.jesus_card,
+.mormon,
+.mormon_card {
     width: 100%; /* Ajuste conforme necessário */
     margin-left: 0; /* Remova a margem ou ajuste conforme necessário */
     margin-right: 0; /* Remova a margem ou ajuste conforme necessário */
@@ -1705,7 +1796,10 @@ nav a {
 .new_title,
 .faith_on_title,
 .new_on_title,
-.launching_on_title
+.launching_on_title,
+.expia_title,
+.jesus_title,
+.mormon_title
  {
     font-family: "Oswald";
     font-size: 25px; /* ou qualquer tamanho desejado para telas menores */
@@ -1716,7 +1810,8 @@ nav a {
 
 .preach_title,
 .new_title,
-.new_on_title{
+.new_on_title,
+.revelations_titles{
     font-family: "Oswald";
     font-size: 25px; /* ou qualquer tamanho desejado para telas menores */
     text-align: center;
@@ -1734,7 +1829,11 @@ nav a {
 .new_on_time,
 .new_on_time2,
 .launching_on_time,
-.preach_time {
+.preach_time,
+.expia_time,
+.revelarions_time,
+.jesus_time,
+.mormon_time {
     font-family: "Oswald";
     font-size: 15px;
     text-align: center;
@@ -1750,7 +1849,11 @@ nav a {
 .faith_on_teacher,
 .new_on_teacher,
 .launching_on_teacher,
-.preach_teacher {
+.preach_teacher,
+.expia_teacher,
+.revelations_teacher,
+.jesus_teacher,
+.mormon_teacher {
     font-family: "Oswald";
     font-size: 25px;
     text-align: center;
@@ -1774,7 +1877,11 @@ nav a {
 .faith_on_reg,
 .launching_reg,
 .faith2_reg,
-.launching_on_reg {
+.launching_on_reg,
+.expia_reg,
+.revelations_reg,
+.jesus_reg,
+.mormon_reg {
     margin-top: -10px; /* Ajuste conforme necessário */
     text-align: center;
     margin-right: 30px; /* Ajuste conforme necessário */

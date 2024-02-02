@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <iframe src="http://127.0.0.1:5000/" width="600" height="400"></iframe>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Aracaju Campus</title>
+</head>
+<body>
+    <div id="content">
+            <header>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/institute_logo3.png" alt="institute_logo">
+                </a>
+    
+                <nav>
+                    <a class="index" href="index.html">Início</a>
+                    <a class="index" href="activities.html">Atividades</a>
+                    <a class="index" href="leadership.html">Liderança</a>
+                    <a class="index" href="classes.html">Turmas e Professores</a>
+                    <a class="index" href="graduation.html">Graduação</a>
+                </nav>
+            </header>
+        <form action="/result" method="post">
+            <label for="student_name">Nome Completo:</label>
+            <input type="text" id="student_name" name="student_name" required>
+            <button type="submit">Checar Informações</button>
+        </form>
+    </div>
+</body>
+</html>
